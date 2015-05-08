@@ -19,7 +19,9 @@ function normalizePoint(point) {
         while (lat <= -90) {
             lat += 180;
         }
-        lat *= -1;
+        if (lat !== 0) {
+            lat *= -1;
+        }
     }
     
     return [lon, lat];
