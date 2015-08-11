@@ -1,3 +1,4 @@
+# Points passed as tuple.
 def normalizePoint(point):
 	'''Pass point as a (lon, lat) tuple.'''
 	lon, lat = point[0], point[1]
