@@ -1,5 +1,5 @@
-// Pass point as [lon, lat] array.
 function normalizePoint(point) {
+    // Pass point as [lon, lat] array.
     var lon = point[0];
     var lat = point[1];
     
